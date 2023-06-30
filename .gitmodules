@@ -1,0 +1,3 @@
+[submodule "be-bun/svc-user"]
+	path = be-bun/svc-user
+	url = git@github.com:kizovo/wyn-svc-user.git
