@@ -4,10 +4,12 @@ A full fledge web skeleton project empowered by Javascript. Using simple and cle
 ## Getting Started
 To get started with this template, simply paste this command into your terminal:
 ```bash
-git clone --recursive <project_repo>
+$ git clone --recursive <project_repo>
 ```
 
 ## List of Service as a Git Submodule
 ```bash
+$ git submodute update --recursive --init
+
 svc-user: git submodule update --remote be-bun/svc-user
 ```
