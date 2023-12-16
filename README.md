@@ -9,7 +9,10 @@ $ git clone --recursive <project_repo>
 
 ## List of Service as a Git Submodule
 ```bash
-$ git submodute update --recursive --init
+Add Submodule:
+$ git submodule add -f <submodule_repo> be-bun/<submodule_name>
 
-svc-user: git submodule update --remote be-bun/svc-user
+Update Submodule:
+global: $ git submodule update --recursive --init
+svc-auth: $ git submodule update --remote be-bun/svc-auth
 ```
